@@ -1,0 +1,10 @@
+clc;
+close all;
+in=input('Enter row number:\n');
+fprintf('\n');
+for i=1:1:in
+    for j=1:1:i
+        fprintf('*')
+    end
+  fprintf('\n');
+end
